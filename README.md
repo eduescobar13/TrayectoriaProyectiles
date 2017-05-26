@@ -18,7 +18,7 @@ En este repositorio se ha desarrollado un programa en Java que simula el lanzami
 	- **Tiempo transcurrido (t) en segundos.**
 	- **Distancia recorrida horizontalmente (x) en metros.**
 	- **Altura del proyectil (y) en metros.**
-	- **Altura máxima alcanzada (y max) también en metros.**
+	- **Altura máxima alcanzada (y max) también en metros.** 
 En el origen de coordenadas, se representa el cañón que efectúa el disparo mediante una flecha (vector) cuyo ángulo con el eje de abcisas coincida con el ángulo del disparo (la flecha se orienta en función del valor del ángulo introducido).
 
 ##### Interfaz gráfica
