@@ -16,14 +16,10 @@ En este repositorio se ha desarrollado un programa en Java que simula el lanzami
 * La interfaz de usuario dispone de deslizantes en el **panel de botones** en los que el usuario puede modificar la **velocidad inicial** y el **ángulo inicial**. En el mismo panel, también existe un checkbox en el que el usuario elige si se dibuja o no la trayectoria del proyectil. Las trayectorias se dibujarán con diferentes colores, que se superpondrán en la pantalla entre diferentes disparos.
 * En el panel **panel de información**, se muestran (conforme el proyectil describe su trayectoria) los siguientes datos: 
 	- **Tiempo transcurrido (t) en segundos.**
-	 distancia recorrida horizontalmente (x) en metros, altura del proyectil (y) en metros, altura ma ́xima alcanzada (y max) tambie ́n en metros.
-En el origen de coordenadas, se representara ́ el can ̃o ́n que efectu ́a el disparo mediante una flecha (vector) cuyo a ́ngulo con el eje de abcisas coincida con el a ́ngulo del disparo (la flecha se orienta en funcio ́n del valor del a ́ngulo introducido).
-Para el primer proyectil lanzado, la escala de distancia (eje X) se configurara ́ dina ́micamente de modo que ese primer lanzamiento “no se salga de la escala”.
-Siempre que la apliacio ́n cumpla con las especificaciones anteriores, todo lo dema ́s (colores, disposicio ́n de los paneles, escalas, etc.) queda a eleccio ́n del desarrollador. Asimismo, cada desarrollo puede incluir, de forma opcional y segu ́n el criterio de su autor/a, aquellos elementos gra ́ficos que contribuyan a una mayor calidad del disen ̃o final.
-El programa desarrollado podra ́ ejecutarse como un applet (habra ́ que desarrollar tambie ́n una pa ́gina en formato HTML con el applet incrustado) y tambie ́n como aplicacio ́n auto ́noma.
+	- **Distancia recorrida horizontalmente (x) en metros.**
+	- **Altura del proyectil (y) en metros.**
+	- **Altura máxima alcanzada (y max) también en metros.**
+En el origen de coordenadas, se representa el cañón que efectúa el disparo mediante una flecha (vector) cuyo ángulo con el eje de abcisas coincida con el ángulo del disparo (la flecha se orienta en función del valor del ángulo introducido).
 
-* **NIVEL DE DIFICULTAD:** Seleccionando desde el NIVEL 1 - FÁCIL (menos cantidad de obstáculos) hasta NIVEL 4 - EXTREMO (obstáculos insuperables).
-* **TAMAÑO:** Tamaño del tablero de obstáculos. Indicado en número de celdas (10 x 10, 30 x 30, etc.).
-* **MAPA DE JUEGO:** Cambia el fondo del tablero y las imágenes que representan a cada obstáculo. Simple cambio visual.  
-
+##### Interfaz gráfica
 ![](interfaz_grafica/panel_configuracion.png) ![](interfaz_grafica/ejemplo_ejecucion.png)
